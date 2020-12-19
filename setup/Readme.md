@@ -4,6 +4,11 @@
 
 *More information [here](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)*
 
+- Setup virtual environment
+
+        cd <GIT_DEV_DIR>
+        python3 -m venv env
+
 - Start virtual environment
     - `source env/bin/activate`
 - Confirm virtual environment started
@@ -37,3 +42,6 @@
     - `pip install -e .`
 - Run unit tests
     - `nosetests`
+- If the following error happens run this command `pip install requests-mock`
+
+        ERROR: Failure: ModuleNotFoundError (No module named 'requests_mock')
