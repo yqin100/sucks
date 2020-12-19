@@ -41,7 +41,8 @@
     - `cd <SUCKS_GIT_DEV_DIR>`
     - `pip install -e .`
 - Run unit tests
-    - `nosetests`
-- If the following error happens run this command `pip install requests-mock`
+    - Install nose module: `pip install nose`
+    - Run the tests: `nosetests`
+- If the following error happens run this command: `pip install requests-mock`
 
         ERROR: Failure: ModuleNotFoundError (No module named 'requests_mock')
