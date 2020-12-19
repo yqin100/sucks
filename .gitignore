@@ -9,3 +9,5 @@ dist
 # Nosetests files
 cover/
 .coverage
+env
+sucks.egg-info
